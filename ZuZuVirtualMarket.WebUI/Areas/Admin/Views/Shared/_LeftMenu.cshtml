@@ -1,0 +1,57 @@
+﻿<div id="layoutSidenav_nav">
+    <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+        <div class="sb-sidenav-menu">
+            <div class="nav">
+                <div class="sb-sidenav-menu-heading">Core</div>
+                <a class="nav-link" href="/Admin">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    Home Screen
+                </a>
+                <a class="nav-link" href="/Admin/AppUsers">
+                    <div class="sb-nav-link-icon"><i class="fa-solid fa-users"></i></div>
+                    User Management
+                </a>
+                <a class="nav-link" href="/Admin/Addresses">
+                    <div class="sb-nav-link-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                    Addres Management
+                </a>
+                <a class="nav-link" href="/Admin/Brands">
+                    <div class="sb-nav-link-icon"><i class="fa-regular fa-copyright"></i></div>
+                    Brand Management
+                </a>
+                <a class="nav-link" href="/Admin/Categories">
+                    <div class="sb-nav-link-icon"><i class="fa-solid fa-list"></i></div>
+                    Category Management
+                </a>
+                <a class="nav-link" href="/Admin/Products">
+                    <div class="sb-nav-link-icon"><i class="fa-solid fa-barcode"></i></div>
+                    Product Management
+                </a>
+                <a class="nav-link" href="/Admin/News">
+                    <div class="sb-nav-link-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                    Announcement and Campaign Management
+                </a>
+                <a class="nav-link" href="/Admin/Sliders">
+                    <div class="sb-nav-link-icon"><i class="fa-solid fa-layer-group"></i></div>
+                    Slider Management
+                </a>
+
+                <a class="nav-link" href="/Admin/Contacts">
+                    <div class="sb-nav-link-icon"><i class="fa-regular fa-comments"></i></div>
+                    Contact Forms
+                </a>
+                <a class="nav-link" href="/Admin/Orders">
+                    <div class="sb-nav-link-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                    Orders
+                </a>
+                
+                
+               
+            </div>
+        </div>
+        <div class="sb-sidenav-footer">
+            <div class="small">Welcome:</div>
+            @Context.User.Identity.Name
+        </div>
+    </nav>
+</div>
